@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2,
+h1{
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+h2{
+    color: brown;
+    text-decoration: underline;
+}
+
+p{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: azure;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1268px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: coral;
+    color: rgb(247, 190, 117);
+    padding: 16px;
+}
+
+header img{
+    height: 54px;
+}
+
+header .container,
+section .container,  
+#fauna,
+#contatos,
+footer
+{     
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fauna h2{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header li a{
+    color: rgb(247, 190, 117);
+}
+
+.texto{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+header nav  li{
+    display: inline;
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.store-front{
+    height: 320px;
+    margin-right: 32px;
+}  
+
+.container li img{
+    height: 90px;
+    width: 90PX;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+section {
+    padding: 24px;
+    background-image: url(./img/coral.avif);
+    background-size: cover;
+}   
+
+section h2,
+section p{
+    margin-bottom: 16px;
+}
+
+.brands-list li{
+    display: inline;
+}
+
+.referencia{
+    color: brown;
+    text-decoration: underline;
+}
+
+#fauna{
+    background-image: url(./img/tumblr_7784071b39cd25a817a543bc8c169f07_99ce3f9f_540.gif);
+}
+
+button{
+    background-color: rgb(160, 74, 4); 
+    color: aliceblue;
+    border: none;
+    width: 100px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: chocolate;
+}
+
+.IMG{
+    height: 290PX;
+    margin-right: 32px
+}
+
+#Paul{
+    background-image: url(./img/paul.webp);
+}
+
+.vd{
+    height: 320px;
+    margin-left: 16px;  
+}
+
+form input,
+form textarea{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea {
+    resize: none;
+    height: 90px;
+    width: 320PX;
+}
+
+#contatos{
+    align-items: flex-start;
+}
+
+.redes-sociais li a img{
+    height: 34px;
+    margin-right: 16px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-sociais li{  
+    list-style-type: none;
+} 
+
+.formulario{
+    padding: 16px;
+    width: 350px;
+    border-radius: 10%;
+    background: no-repeat;
+    background-image: url(./img/laranja.avif);
+    background-size: cover;  
+}
+
+footer{
+    background-color: coral;
+    padding: 8px;
+}
+
+.meu-contato{
+    display: flex;
+    justify-content: space-between;
+}
+
+.meu-contato a{
+    margin-right: 16px;
+}
+
+footer a{
+    color: brown
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
